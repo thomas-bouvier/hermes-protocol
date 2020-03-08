@@ -1,13 +1,13 @@
 # hermes-protocol
 
-A JavaScript wrapper aroung the the Hermes protocol.
-
-[![Build Status](https://travis-ci.org/snipsco/hermes-protocol.svg?branch=master)](https://travis-ci.org/snipsco/hermes-protocol)
+[![Build Status](https://travis-ci.com/thomas-bouvier/hermes-protocol.svg?branch=master)](https://travis-ci.com/thomas-bouvier/hermes-protocol)
 [![npm version](https://badge.fury.io/js/hermes-protocol.svg)](https://www.npmjs.com/package/hermes-protocol)
+
+A JavaScript wrapper around the the Hermes protocol.
 
 ## Context
 
-The `hermes-protocol` library provides bindings for the [Hermes protocol](https://docs.snips.ai/ressources/hermes-protocol) that [Snips](https://snips.ai) components use to communicate together. `hermes-protocol` allows you to interface seamlessly with the [Snips platform](https://docs.snips.ai/) and create Voice applications with ease!
+The `hermes-protocol` library provides bindings for the [Hermes protocol](https://docs.snips.ai/ressources/hermes-protocol) formely used by Snips components to communicate together. `hermes-protocol` allows you to interface seamlessly with the Rhasspy and Hermod ecosystems and create Voice applications with ease!
 
 `hermes-protocol` abstracts away the connection to the [MQTT](http://mqtt.org/) bus and the parsing of incoming and outcoming messages from and to the components of the platform and provides a high-level API as well.
 
