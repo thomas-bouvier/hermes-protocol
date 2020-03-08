@@ -82,7 +82,7 @@ function getPlatformName () {
 
 
 if(skipOnSelfInstall) {
-    // Skipping post-install step on hermes-javascript self install.
+    // Skipping post-install step on hermes-protocol self install.
 } else {
     logger.cmd('- Checking platform support.')
     const platformName = getPlatformName()
@@ -121,8 +121,8 @@ if(skipOnSelfInstall) {
             .then(() => logger.success('> Done!'))
             .catch(error => {
                 logger.error('An error occured while downloading the dynamic library.')
-                logger.cmd('You can build hermes-javascript from source by setting the HERMES_BUILD_FROM_SOURCES environment variable to true.')
-                logger.cmd('Example: env HERMES_BUILD_FROM_SOURCES=true npm install hermes-javascript\n')
+                logger.cmd('You can build hermes-protocol from source by setting the HERMES_BUILD_FROM_SOURCES environment variable to true.')
+                logger.cmd('Example: env HERMES_BUILD_FROM_SOURCES=true npm install hermes-protocol\n')
                 logger.error(error.message)
             })
     }

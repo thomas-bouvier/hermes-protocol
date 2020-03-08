@@ -1,20 +1,19 @@
 {
-  "name": "hermes-javascript",
+  "name": "hermes-protocol",
   "version": "0.4.1",
   "hermes-mqtt-version": "0.68.1",
-  "description": "Hermes javascript bindings",
+  "description": "A JavaScript wrapper aroung the the Hermes protocol.",
   "keywords": [
-    "snips",
     "hermes",
     "mqtt",
     "voice"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/snipsco/hermes-protocol"
+    "url": "https://github.com/thomas-bouvier/hermes-protocol"
   },
   "bugs": {
-    "url": "https://github.com/snipsco/hermes-protocol/issues"
+    "url": "https://github.com/thomas-bouvier/hermes-protocol/issues"
   },
   "main": "dist/index.js",
   "scripts": {

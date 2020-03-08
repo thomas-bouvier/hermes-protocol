@@ -27,7 +27,7 @@ export class Hermes {
      * Create a new Hermes instance that connects to the underlying event bus.
      *
      * **Important: Each call to this function will open the hermes shared library
-     * and bind hermes-javascript to it. It is an expensive operation.**
+     * and bind hermes-protocol to it. It is an expensive operation.**
      *
      * @param options - Options used to instantiate a new Hermes object.
      */
