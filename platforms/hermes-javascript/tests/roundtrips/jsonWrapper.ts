@@ -1,6 +1,6 @@
 import path from 'path'
-import ffi from 'ffi'
-import ref from 'ref'
+import ffi from 'ffi-napi'
+import ref from 'ref-napi'
 import { LIB_ENV_FOLDER } from '../constants'
 
 export const library = libraryPath => ffi.Library(libraryPath, {

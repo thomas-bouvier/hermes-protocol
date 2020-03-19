@@ -1,5 +1,5 @@
-const ref = require('ref')
-const Struct = require('ref-struct')
+const ref = require('ref-napi')
+const Struct = require('ref-struct-di')
 
 const coerce = ref.coerceType
 const pointer = ref.refType

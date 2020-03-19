@@ -1,6 +1,6 @@
 const path = require('path')
-const ffi = require('ffi')
-const ref = require('ref')
+const ffi = require('ffi-napi')
+const ref = require('ref-napi')
 
 /*****************
    FFI Bindings

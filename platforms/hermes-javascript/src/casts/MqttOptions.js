@@ -1,4 +1,4 @@
-const ref = require('ref')
+const ref = require('ref-napi')
 const Casteable = require('./Casteable')
 const StringArray = require('./StringArray')
 const { CMqttOptions } = require('../ffi/typedefs')

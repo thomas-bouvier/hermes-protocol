@@ -1,4 +1,4 @@
-import ref from 'ref'
+import ref from 'ref-napi'
 import Dialog from './dialog'
 import Injection from './injection'
 import Feedback from './feedback'

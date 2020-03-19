@@ -1,4 +1,4 @@
-import ref from 'ref'
+import ref from 'ref-napi'
 import { call } from './jsonWrapper'
 
 import {

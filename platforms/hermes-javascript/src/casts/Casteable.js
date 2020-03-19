@@ -1,5 +1,5 @@
 const { cast } = require('../tools')
-const ref = require('ref')
+const ref = require('ref-napi')
 
 /**
  * An abstract class equipped with generic methods
