@@ -1,5 +1,5 @@
 const ref = require('ref-napi')
-const array = require('ref-array-di')
+const array = require('ref-array-di')(ref)
 const Casteable = require('./Casteable')
 const { CStringArray } = require('../ffi/typedefs')
 
