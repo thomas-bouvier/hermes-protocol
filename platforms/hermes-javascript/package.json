@@ -1,6 +1,6 @@
 {
   "name": "hermes-protocol",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "hermes-mqtt-version": "0.68.1",
   "description": "A JavaScript wrapper aroung the the Hermes protocol.",
   "keywords": [
